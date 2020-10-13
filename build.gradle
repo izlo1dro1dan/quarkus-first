@@ -14,7 +14,10 @@ dependencies {
     implementation 'io.quarkus:quarkus-vertx-web'
     implementation 'io.quarkus:quarkus-reactive-pg-client'
     implementation 'io.quarkus:quarkus-arc'
+    implementation 'io.quarkus:quarkus-resteasy-mutiny'
+    implementation 'io.quarkus:quarkus-resteasy-jsonb'
     testImplementation 'io.quarkus:quarkus-junit5'
+
 }
 
 group 'kz.kaisabekov'
